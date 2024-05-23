@@ -1,0 +1,40 @@
+/* testimonials.module.css */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  /* Add additional styles here */
+}
+
+
+.quote {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  /* Add additional styles here */
+}
+
+.author {
+  font-style: italic;
+  color: #777;
+  /* Add additional styles here */
+}
+
+.testimonial {
+  transition: transform 0.5s ease;
+}
+
+
+
+@keyframes prev {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+@keyframes next {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
